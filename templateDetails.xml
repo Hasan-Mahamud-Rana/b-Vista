@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" 
+	type="template"
+	method="upgrade"
+	client="site">
+  <name>Bording Vista</name>
+  <creationDate>2014-11-16</creationDate>
+  <author>Hasan Mahamud Rana</author>
+  <authorEmail>rana_imagine@yahoo.com</authorEmail>
+  <authorUrl>http://www.bordingvista.com</authorUrl>
+  <copyright>Bording Vista 2014</copyright>
+  <license>GNU/GPL</license>
+  <version>1.0.2</version>
+  <description>Bording Vista new template by using twitter bootstrap</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>templateDetails.xml</filename>
+	<filename>template_preview.png</filename>
+	<filename>template_thumbnail.png</filename>
+    <folder>css</folder>
+    <folder>font</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>ico</folder>
+    <folder>js</folder>
+  </files>
+  <positions>
+    <position>language-switcher</position>
+    <position>quick-contact</position>
+    <position>main-menu</position>
+    <position>showcase</position>
+    <position>custom-showcase</position>
+    <position>featured-box-1</position>
+    <position>featured-box-2</position>
+    <position>featured-box-3</position>
+    <position>featured-box-4</position>
+    <position>featured-box-5</position>
+    <position>featured-box-6</position>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>bottom</position>
+    <position>bottom-showcase</position>
+    <position>featured-bottom</position>
+    <position>content-bottom</position>
+    <position>footer-box-1</position>
+    <position>footer-box-2</position>
+    <position>footer-box-3</position>
+    <position>footer</position>
+    <position>copyright</position>
+  </positions>
+  <config>
+    <fields name="params">
+      <fieldset name="general" label="General">
+        <field name="logo_text"
+						type="text"
+						label="Logo Text"
+						description="Enter your logo text"
+					/>
+        <field name="copyright_text"
+						type="text"
+						label="Copyright Text"
+						description="Enter your copyright text"
+					/>
+      </fieldset>
+    </fields>
+  </config>
+</extension>
